@@ -1,0 +1,107 @@
+</br>
+<%if ENVIRONMENT == "DEVELOPMENT"%>
+<h1>WARNING: ENVIRONMENT IS DEVELOPMENT</h1> <br /> <br />
+<%end%>
+
+<table>
+<tr>
+<td><%=link_to 'Upload New Orders', :controller => :upload,
+                                    :action => :index%></td>
+<td><%=link_to 'Process Credit Cards', :action => :process_cc %></td>
+<td><%=link_to 'Send Processed Orders to Webgistix', :action => :webgistix%></td>
+</tr>
+<tr>
+<td><%=link_to 'Export Shipping Labels', :action => :export %></td>
+<td><%=link_to 'Export Customer List', :action => :customer_list %></td>
+<%if params[:show_shipped]%>
+<td><%=link_to 'Hide Shipped Orders', :show_shipped => false%></td>
+<%else%>
+<td><%=link_to 'Show Shipped Orders', :show_shipped => true%></td>
+<%end%>
+</tr>
+<tr>
+<td><%=link_to 'Update shipment information', :action => :query_webgistix_orders%></td>
+</tr>
+<tr>
+<td><%=link_to 'Search', :controller => :customer_service, :action => :index%></td>
+</tr>
+</table>
+
+  <table>
+  
+  <tr>
+    <th>Single View</th><th>Status</th><th>Order No</th>
+    <th>Order Date</th>
+    <th>Item No</th><th>Amount</th><th>Product title</th>
+    <th>Customer No</th> <th>Title</th>
+    <th>billing First Name</th><th>Billing Name</th><th>Billing Company</th>
+    <th>Billing Address</th><th>Billing Address 2</th><th>Billing Country</th>
+    <th>Billing ZIP Code</th><th>Billing City</th><th>Billing State</th>
+    <th>Billing email</th><th>Billing Fax</th><th>Billing Phone</th>
+    <th>Shipping Title</th><th>ShippingFirst Name</th><th>Shipping Name</th>
+    <th>Shipping Company</th><th>Shipping Address</th><th>Shipping Address 2</th>
+    <th>Shipping Country</th><th>Shipping ZIP Code</th><th>Shipping City</th>
+    <th>Shipping State</th><th>Email</th><th>Fax</th><th>Phone</th>
+    <th>Shipping</th><th>Payment</th><th>Credit Card</th>
+    <th>CC Result</th><th>CC Code</th>
+    <th>Webgistix Result</th><th>Webgistix Order ID</th>
+    <th>Date Shipped</th><th>Tracking ID</th>
+    <th>Price</th><th>Shipping costs</th><th>TAX</th>
+    <th>TAX value</th><th>Total</th>
+  </tr>
+  <%@clients.each do |client|%>
+      <tr>
+
+<td><%=link_to 'Single_View', :action => :single_view, :id => client.id %></td>
+
+			 <td><%=client.status%></td>
+          <td><%=client.order_no%></td>
+          <td><%=client.order_date%></td>
+          <td><%=client.item_no%></td>
+          <td><%=client.amount%></td>
+          <td><%=client.product_title%></td>
+          <td><%=client.customer_no%></td>
+          <td><%=client.title%></td>
+          <td><%=client.billing_first_name%></td>
+          <td><%=client.billing_name%></td>
+          <td><%=client.billing_company%></td>
+          <td><%=client.billing_address%></td>
+          <td><%=client.billing_address2%></td>
+          <td><%=client.billing_country%></td>
+          <td><%=client.billing_zipcode%></td>
+          <td><%=client.billing_city%></td>
+          <td><%=client.billing_state%></td>
+          <td><%=client.billing_email%></td>
+          <td><%=client.billing_fax%></td>
+          <td><%=client.billing_phone%></td>
+          <td><%=client.shipping_title%></td>
+          <td><%=client.shipping_first_name%></td>
+          <td><%=client.shipping_name%></td>
+          <td><%=client.shipping_company%></td>
+          <td><%=client.shipping_address%></td>
+          <td><%=client.shipping_address2%></td>
+          <td><%=client.shipping_country%></td>
+          <td><%=client.shipping_zip_code%></td>
+          <td><%=client.shipping_city%></td>
+          <td><%=client.shipping_state%></td>
+          <td><%=client.email%></td>
+          <td><%=client.fax%></td>
+          <td><%=client.phone%></td>
+          <td><%=client.shipping%></td>
+          <td><%=client.payment%></td>
+          <td><%=client.credit_card%></td>
+          <td><%=client.cc_result%></td>
+          <td><%=client.cc_code%></td>
+          <td><%=client.webg_result%></td>
+          <td><%=client.webg_order_code%></td>
+          <td><%=client.ship_date%></td>
+          <td><%=client.tracking_no%></td>
+          <td><%=client.price%></td>
+          <td><%=client.shipping_costs%></td>
+          <td><%=client.tax%></td>
+          <td><%=client.tax_value%></td>
+          <td><%=client.total%></td>
+      </tr>
+  <%end%>
+
+</table>

@@ -1,0 +1,5 @@
+The following errors occurred on the Aerosoft USA server today:
+
+<%=@error_list%>
+
+

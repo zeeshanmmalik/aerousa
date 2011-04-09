@@ -1,0 +1,93 @@
+<br/>
+<%form_tag(:action => :edit_client, :id => @entry.id, :method => :post) do %>
+  <table>
+  
+  <tr>
+    <th>Status</th><th>Order No</th><th>Order Date</th>
+	 <th>Item No</th><th>Amount</th><th>Product title</th>
+    <th>Customer No</th><th>Title</th><th>billing First Name</th>
+    <th>Billing Name</th><th>Billing Company</th><th>Billing Address</th>
+    <th>Billing Address 2</th><th>Billing Country</th><th>Billing ZIP Code</th>
+    <th>Billing City</th><th>Billing State</th><th>Billing email</th>
+    <th>Billing Fax</th>
+    <th>Billing Phone</th><th>Shipping Title</th><th>ShippingFirst Name</th>
+    <th>Shipping Name</th>
+    <th>Shipping Company</th><th>Shipping Address</th><th>Shipping Address 2</th>
+    <th>Shipping Country</th>
+    <th>Shipping ZIP Code</th><th>Shipping City</th><th>Shipping State</th>
+    <th>Email</th><th>Fax</th>
+    <th>Phone</th><th>Shipping</th><th>Payment</th><th>Credit Card</th>
+    <th>CC_Result</th><th>CC_Code</th><th>CC_log</th>
+    <th>Price</th><th>Shipping costs</th><th>TAX</th>
+    <th>TAX value</th><th>Total</th>
+    <th>Webgistix Result</th><th>Webgistix Order ID</th><th>Webgistix Log</th>
+    <th>Comment</th>
+    <th>Delete Entire order</th>
+  </tr>
+      <tr VALIGN=TOP>
+          <td><%=text_field 'client', 'status', :size => 15,
+              :value => (@entry.status unless @entry.blank?)%></td>
+          <td><%=@entry.order_no%></td>
+          <td><%=@entry.order_date%></td>
+          <td><%=@entry.item_no%></td>
+          <td><%=@entry.amount%></td>
+          <td><%=@entry.product_title%></td>
+          <td><%=@entry.customer_no%></td>
+          <td><%=@entry.title%></td>
+          <td><%=@entry.billing_first_name%></td>
+          <td><%=@entry.billing_name%></td>
+          <td><%=@entry.billing_company%></td>
+          <td><%=@entry.billing_address%></td>
+          <td><%=@entry.billing_address2%></td>
+          <td><%=@entry.billing_country%></td>
+          <td><%=@entry.billing_zipcode%></td>
+          <td><%=@entry.billing_city%></td>
+          <td><%=@entry.billing_state%></td>
+          <td><%=@entry.billing_email%></td>
+          <td><%=@entry.billing_fax%></td>
+          <td><%=@entry.billing_phone%></td>
+          <td><%=@entry.shipping_title%></td>
+          <td><%=@entry.shipping_first_name%></td>
+          <td><%=@entry.shipping_name%></td>
+          <td><%=@entry.shipping_company%></td>
+          <td><%=@entry.shipping_address%></td>
+          <td><%=@entry.shipping_address2%></td>
+          <td><%=@entry.shipping_country%></td>
+          <td><%=@entry.shipping_zip_code%></td>
+          <td><%=@entry.shipping_city%></td>
+          <td><%=@entry.shipping_state%></td>
+          <td><%=@entry.email%></td>
+          <td><%=@entry.fax%></td>
+          <td><%=@entry.phone%></td>
+          <td><%=@entry.shipping%></td>
+          <td><%=text_field 'client', 'payment', :size => 20,
+              :value => (@entry.payment unless @entry.blank?)%></td>
+          <td><%=text_field 'client', 'credit_card', :size => 15,
+              :value => (@entry.credit_card unless @entry.blank?)%></td>
+          <td><%=@entry.cc_result%></td>
+          <td><%=@entry.cc_code%></td>
+          <td><%=@entry.cc_log%></td>
+          <td><%=@entry.price%></td>
+          <td><%=@entry.shipping_costs%></td>
+          <td><%=@entry.tax%></td>
+          <td><%=@entry.tax_value%></td>
+          <td><%=@entry.total%></td>
+          <td><%=@entry.webg_result%></td>
+          <td><%=@entry.webg_order_code%></td>
+          <td><%=@entry.webg_log%></td>
+          <td><%=text_area 'client', 'comment', :rows => 4, :cols => 20,
+              :value => (@entry.comment unless @entry.blank?)%></td>
+          <td><%=link_to 'Delete entire order', :action => :delete, 
+              :order_no => @entry.order_no %></td>
+      </tr>
+</table>
+<br/>
+<%= link_to 'Back', :back %>
+<%=submit_tag 'Save'%>
+<%end%>
+<br/>
+<br/>
+
+Status Options: "new", "payment processed", "payment pending",
+"payment error", "backlog", "shipped"
+

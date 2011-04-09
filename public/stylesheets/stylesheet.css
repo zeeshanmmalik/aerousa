@@ -1,0 +1,365 @@
+.boxText {
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.errorBox {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFB3B5 none repeat scroll 0 0;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+font-weight:bold;
+}
+.stockWarning {
+color:#CC0033;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.productsNotifications {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#F2FFF7 none repeat scroll 0 0;
+}
+.orderEdit {
+color:#70D250;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+text-decoration:underline;
+}
+body {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF none repeat scroll 0 0;
+color:#000000;
+margin:0;
+}
+a {
+color:#000000;
+text-decoration:none;
+}
+a:hover {
+color:#AABBDD;
+text-decoration:underline;
+}
+form {
+display:inline;
+}
+tr.header {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF none repeat scroll 0 0;
+}
+tr.headerNavigation {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#9B0101 none repeat scroll 0 0;
+}
+td.headerNavigation {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#E8E8E8 none repeat scroll 0 0;
+color:#000000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+font-weight:bold;
+}
+td.headerNavigation2 {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#E8E8E8 none repeat scroll 0 0;
+color:#000000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+font-weight:bold;
+}
+a.headerNavigation {
+color:#000000;
+}
+a.headerNavigation:hover {
+color:#000000;
+}
+tr.headerError {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FF0000 none repeat scroll 0 0;
+}
+td.headerError {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FF0000 none repeat scroll 0 0;
+color:#FFFFFF;
+font-family:Tahoma,Verdana,Arial,sans-serif;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+}
+tr.headerInfo {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#00FF00 none repeat scroll 0 0;
+}
+td.headerInfo {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#00FF00 none repeat scroll 0 0;
+color:#FFFFFF;
+font-family:Tahoma,Verdana,Arial,sans-serif;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+}
+tr.footer {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#9B0101 none repeat scroll 0 0;
+}
+td.footer {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#9B0101 none repeat scroll 0 0;
+color:#FFFFFF;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+font-weight:bold;
+}
+.downloadlink {
+color:#0000CC;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+text-decoration:underline;
+}
+.downloadlink:hover {
+color:#0000CC;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+text-decoration:underline;
+}
+.infoBox {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#B6B7CB none repeat scroll 0 0;
+}
+.infoBoxContents {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#F8F8F9 none repeat scroll 0 0;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.infoBoxNotice {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FF8E90 none repeat scroll 0 0;
+}
+.infoBoxNoticeContents {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFE6E6 none repeat scroll 0 0;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+td.infoBoxHeading {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#E8E8E8 none repeat scroll 0 0;
+color:#000000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+font-weight:bold;
+}
+td.infoBox, span.infoBox {
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+tr.accountHistory-odd, tr.addressBook-odd, tr.alsoPurchased-odd, tr.payment-odd, tr.productListing-odd, tr.productReviews-odd, tr.upcomingProducts-odd, tr.shippingOptions-odd {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#F8F8F9 none repeat scroll 0 0;
+}
+tr.accountHistory-even, tr.addressBook-even, tr.alsoPurchased-even, tr.payment-even, tr.productListing-even, tr.productReviews-even, tr.upcomingProducts-even, tr.shippingOptions-even {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#F8F8F9 none repeat scroll 0 0;
+}
+table.productListing {
+border:1px solid #B6B7CB;
+border-spacing:1px;
+}
+.productListing-heading {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#EFEFEF none repeat scroll 0 0;
+color:#000000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+font-weight:bold;
+}
+td.productListing-data {
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+a.pageResults {
+color:#0000FF;
+}
+a.pageResults:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFF33 none repeat scroll 0 0;
+color:#0000FF;
+}
+td.pageHeading, div.pageHeading {
+color:#000000;
+font-family:Verdana,Arial,sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+tr.subBar {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#F4F7FD none repeat scroll 0 0;
+}
+td.subBar {
+color:#000000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+td.main, p.main {
+font-family:Verdana,Arial,sans-serif;
+font-size:11px;
+line-height:1.5;
+}
+td.smallText, span.smallText, p.smallText {
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+td.smallText1, span.smallText1, p.smallText1 {
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+text-transform:uppercase;
+}
+td.accountCategory {
+color:#AABBDD;
+font-family:Verdana,Arial,sans-serif;
+font-size:13px;
+}
+td.fieldKey {
+font-family:Verdana,Arial,sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+td.fieldValue {
+font-family:Verdana,Arial,sans-serif;
+font-size:12px;
+}
+td.tableHeading {
+font-family:Verdana,Arial,sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+span.newItemInCart {
+color:#FF0000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+checkbox, input, radio, select {
+font-family:Verdana,Arial,sans-serif;
+font-size:11px;
+}
+textarea {
+font-family:Verdana,Arial,sans-serif;
+font-size:11px;
+width:100%;
+}
+span.greetUser {
+color:#F0A480;
+font-family:Verdana,Arial,sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+table.formArea {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#F1F9FE none repeat scroll 0 0;
+border:1px solid #7B9EBD;
+}
+td.formAreaTitle {
+font-family:Tahoma,Verdana,Arial,sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+span.markProductOutOfStock {
+color:#C76170;
+font-family:Tahoma,Verdana,Arial,sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+span.productSpecialPrice {
+color:#FF0000;
+font-family:Verdana,Arial,sans-serif;
+}
+span.errorText {
+color:#FF0000;
+font-family:Verdana,Arial,sans-serif;
+}
+.moduleRow {
+}
+.moduleRowOver {
+background-color:#D7E9F7;
+cursor:pointer;
+}
+.moduleRowSelected {
+background-color:#E9F4FC;
+}
+.checkoutBarFrom, .checkoutBarTo {
+color:#8C8C8C;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.checkoutBarCurrent {
+color:#000000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.messageBox {
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.messageStackError, .messageStackWarning {
+background-color:#FFB3B5;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.messageStackSuccess {
+background-color:#99FF00;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}
+.inputRequirement {
+color:#FF0000;
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+}

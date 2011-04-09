@@ -1,0 +1,17 @@
+<%=@message %>
+<br />
+<% unless $errors.empty?
+      $errors.each do |error|%>
+      <%=error%> <br /> 
+      <%end %>
+<%end %>
+<br />
+
+<%if @orders == 1%>1 order was processed
+<%else%> <%=@orders %> orders were processed
+<%end%>
+
+<br />
+<br />
+<!-- TODO change this back to upload index if the Germans are going to use it-->
+<%= link_to 'Back', :controller => :shipping, :action => :index %>
