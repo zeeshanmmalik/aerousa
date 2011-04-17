@@ -1,9 +1,0 @@
-Dear <%=@client.billing_first_name%>,<br/>
-<br/>
-We regret to inform you that we were unable to process your billing information.
-Please follow the secure link below to correct it. 
-<br/>
-<a href="https://url/support/fix_cc?code=<%=@client.email_code%>">https://url/support/fix_cc?code=<%=@client.email_code%></a><br/>
-<br/>
-Thank you, <br/>
-

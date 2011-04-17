@@ -1,0 +1,20 @@
+ORDERNO;DATE;CUSTOMERNO;TITEL;FIRSTNAME;NAME;COMPANY;STREET;APPARTEMENT;COUNTRY;ZIPCODE;CITY;STATE;EMAIL;FAX;PHONE;TITEL2;FIRSTNAME2;NAME2;COMPANY2;STREET2;APPARTEMENT2;COUNTRY2;ZIPCODE2;CITY2;STATE2;EMAIL2;FAX2;PHONE2;SHIPPING;SELECTEDPAYMENT;CCARD;NUMBER;VALIDITYMONTH;VALIDITYYEAR;PIN;ITEMNO;AMOUNT;PRODUCT;PRICE;SHIPPINGCOSTS;TAX;TAXVALUE;TOTAL;COMMENT;
+5669686770;2010-11-21;123customer_number;Mrs;abc;def;;123 Melody DR.;;United States;54313;Green Bay;Wisconsin (WI);test@test.com;;123-123-1234;;;;;;;;;;;;;;Complete shipping;KKarte;MasterCard;4111111111111111;06;2011;123;10890;1;City Bus Simulator 2010 - New York (Simulator);35.99;5.85;6.25%;2.25;44.09;with MA tax;
+5669686771;2010-11-21;;Mrs;abc;def;;123 Melody DR.;;United States;1234;Green Bay;Wisconsin (WI);test@test.com;;123-123-1234;;;;;;;;;;;;;;Complete shipping;US Check;;;;;;10890;1;City Bus Simulator 2010 - New York (Simulator);35.99;5.85;;0.00;41.84;4-digit zip code validation error;
+5670237910;2010-11-21;09;Mr;test;test;;123 Park Creek Circle;;United States;30044;Lawrenceville;Georgia (GA);test@test.com;;123-123-1234;;;;;;;;;;;;;;Complete shipping;KKarte;Visa;4111111111111111;03;2013;123;10350;1;Katana DA-20 X (FSX+FS2004);35.99;5.85;;0.00;41.84;;
+5670319340;2010-11-21;;Mr;test;test;;123 Wilder Road;;United States;01740;Bolton;Massachusetts (MA);test@test.com;;12345678;;;;;;;;;;;;;;Complete shipping;KKarte;MasterCard;4111111111111111;11;2013;123;10389_1;1;DHC-2 Beaver X (FSX+FS2004);29.99;5.85;6.25%;1.87;37.71;;
+5670346400;2010-11-22;;Ms;test ;test;;123 Merrick;;United States;48180;Taylor;Michigan (MI);test@test.com;;12345678;Mr;Ruth ;Brewer;;7630 Merrick;;United States;48180;Taylor;Michigan (MI);test@test.com;;45678945640;Complete shipping;KKarte;MasterCard;4111111111111111;06;2012;123;11177_1;1;Airbus X (A320/321) (FSX);45.99;5.85;;0.00;51.84;;
+5781385140;2010-12-01;;Mr;multiorder;test;;123 Dearborn Pl;;United States;20601;Waldorf;Maryland (MD);test@test.com;;(123) 123-1234;;;;;;;;;;;;;;Complete shipping;KKarte;Visa;4111111111111111;1;2012;123;10275;1;PMDG McDonnell Douglas MD-11 X (FSX only);$69.99 ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;10271;1;PMDG 747-400 X (FSX only);$59.99 ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;10939;1;PMDG BAe Jetstream 4100 (FSX only);$49.99 ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;10285;1;F-16 Fighting Falcon (FSX only);$35.99 ;$8.95 ;;;$224.91 ;four products in this order;
+5670399010;2010-11-22;;Mr;test;test;;123 W. Michaels Drive;;United States;85138_1;Maricopa;Arizona (AZ);test@test.com;;123456780;;;;;;;;;;;;;;Complete shipping;KKarte;Visa;4111111111111111;08;2013;0;10056;1;Carenado - Cessna U206G Stationair 6 II (FS2004 only);23.99;5.85;;0.00;29.84;
+invalid pin-cvv code and zip code too long
+		This is a comment 
+
+with multiple
+
+lines
+
+	;5782047390;2011-03-11;;Mr;test;test;;Site 12  Comp 4 SS1;;Canada;V0G 1L0;Fruitvale;British Columbia (BC);test@test.com;;123-123-1234;;;;;;;;;;;;;;Complete shipping;KKarte;Visa;4111111111111111;1;2011;123;10271;1;PMDG 747-400 X (FSX only);$59.99 ;$11.95 ;;;$71.94 ;canada address;
+
