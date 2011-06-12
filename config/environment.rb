@@ -3,6 +3,8 @@
 # Specifies gem version of Rails to use when vendor/rails is not present
 RAILS_GEM_VERSION = '3.0.6' unless defined? RAILS_GEM_VERSION
 
+#testing git functions.....
+
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
